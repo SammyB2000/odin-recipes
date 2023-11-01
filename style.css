@@ -3,5 +3,31 @@
 }
 ol, ul {
     display: inline-block;
-    text-align: left;
+    text-align: center;
+}
+.title {
+    background-color: rgba(13, 129, 75, 0.3);
+    padding: 8px;
+    border: 2px solid rgba(13, 129, 75, 0.3);
+    text-align:center;
+}
+li {
+    display: block;
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    border:dotted 2px grey;
+    padding: 50px;
+}
+.oreos {
+    background-color:rgb(185, 248, 248);
+}
+.lasagna {
+    background-color: crimson;
+}
+.sushi {
+    background-color: lightgreen;
+}
+body {
+    background-color: rgba(88, 52, 146, 0.3)
 }
